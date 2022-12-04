@@ -1,18 +1,47 @@
+html {
+    display: table;
+    margin: auto;
+	
+}
+
 body{
 	background-color:rgb(0,156,232);
-	text-align:center;
 	font-family:monospace;
+	display:table-cell;
+	margin:0 auto;
+	font-family:Helvetica;
+}
+.header{
+	display:flex;
+	justify-content:center;
 }
 
 a {
 	color:white;
 	text-decoration:none;
+	font-size:18px;
+	
 }
 
 a:hover{
 	color:orange;
 }
 
-#header{
-	display:inline-block;
+
+
+.home{
+	font-size:20;
+	color:yellow;
+	font-family:"Lucida Handwriting";
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+	color:white;
+	text-decoration:underline;
+}
+p{
+	text-align:center;
+	color:white;
 }
