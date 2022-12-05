@@ -10,6 +10,7 @@ body{
 	display:table-cell;
 	margin:0 auto;
 	font-family:Helvetica;
+	color:white;
 }
 .header{
 	display:flex;
@@ -40,8 +41,43 @@ h2{
 	text-align:center;
 	color:white;
 	text-decoration:underline;
+	
 }
 p{
 	text-align:center;
 	color:white;
+}
+
+label{
+	color:white;
+}
+.contact{
+	display:flex;
+	justify-content:center;
+}
+
+#btn1{
+	
+	color:white;
+	background-color:#17BEBB;
+	border-radius:30px 5px;
+	border-color:#FFC914;
+	padding:7.5px;
+}
+#btn1:hover{
+	color:#E3E7AF;
+}
+.images{
+	border-radius:20px;
+}
+.buttons{
+	color:white;
+	background-color:#17BEBB;
+	border-radius:30px 5px;
+	border-color:#FFC914;
+	padding:7.5px;
+}
+
+.centered{
+	text-align:center;
 }
