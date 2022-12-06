@@ -107,6 +107,7 @@ function buttonClicked(){
 		count = count + add12;
 		price.innerHTML = "Price:  " + "&euro;" + count;
 	}
+	final.innerHTML = "";
 	i = 1
 }
 
@@ -119,7 +120,9 @@ function purchase(){
 		final.innerHTML = "Purchase charged in account!";
 		device.innerHTML = "";
 		price.innerHTML = "";
+		i = 0
 	}
+
 }
 
 
