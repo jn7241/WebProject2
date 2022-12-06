@@ -10,19 +10,18 @@
 </head>
 
 <body>
-<!--Header--->
+<!--Header-->
 <div class = "header">
 
-<!--navigation bar--->
+<!--navigation bar-->
 <div class = "nav" style = "font-size:20px;">
 
-<table cellspacing ="25px" >
+<table class = "navTable" >
 <tr>
 <td>
-<img src = "placeholder.png" width = "110" height = "100.5">
-</td>
-<td>
-<a href = "index.html">Home</a>
+<a href = "index.html" title = "Click to go Home!">
+<img class ="photoLogo" src = "placeholder.png" alt = "placeholder" width = "110" height = "100">
+</a>
 </td>
 <td>
 <a href = "about.html">About Us</a>
@@ -34,23 +33,31 @@
 <a href = "desktops.html">Desktops</a>
 </td>
 <td>
-<a href = "more.html">Contact</a>
+<a href = "laptops.html">Laptops</a>
+</td>
+<td>
+<a href = "more.html">Shipping</a>
+</td>
+<td>
+<a href = "store.html">Store</a>
 </td>
 </tr>
 </table>
 </div>
-</div>
-<!--Phones-->
-<div class = "Phones">
 
-<table cellspacing = "50px">
+</div>
+
+<!--Laptops-->
+<div class = "Laptops">
+
+<table>
 <tr>
 
 <td>
-<img class = "images" src = "dellg3.jpg" width = "220" height = "200">
+<img class = "images" alt = "dell g3" src = "dellg3.jpg" width = "220" height = "200">
 </td>
 <td>
-<img class = "images" src = "LenovoIdeapad.webp" width = "220" height = "200">
+<img class = "images" alt = "Ideapad Flex" src = "LenovoIdeapad.webp" width = "220" height = "200">
 </td>
 
 </tr>
@@ -59,26 +66,22 @@
 <td class ="centered">
 Dell G3 3500, GTX 1650 <br>
 i5-10300H, <br>8GB DDR4 RAM,<br> 256GB SSD  &euro;750
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
+
 </td>
 <td class ="centered">
 Ryzen 7 Lenovo <br>Ideapad Flex 5, <br>
 8GB RAM, 256GB SSD: &euro;480<br>
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
+
 </td>
 
 </tr>
 <tr>
 
 <td>
-<img class = "images" src = "LenovoFlex3.jpg" width = "220" height = "200">
+<img class = "images"  alt = "Lenovo Chromebook" src = "LenovoFlex3.jpg" width = "220" height = "200">
 </td>
 <td>
-<img class = "images" src = "M1Air.jpg" width = "220" height = "200">
+<img class = "images" alt = "M1 Air" src = "M1Air.jpg" width = "220" height = "200">
 </td>
 
 </tr>
@@ -86,21 +89,36 @@ Ryzen 7 Lenovo <br>Ideapad Flex 5, <br>
 <tr>
 <td class ="centered">
 Abyss Blue Lenovo Flex 3,<br> 4GB RAM, 64GB eMMC  &euro;180
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
+
 </td>
 <td class ="centered">
 M1 Macbook Air, <br>
 8GB Ram, 256GB SSD: &euro;800
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
 </td>
 
 </tr>
 </table>
 
 </div>
+
+<!--Footer-->
+<div class = "footer">
+<p>
+<button class = "fbuttons" onclick = "history.back()"><a>BACK</a></button>
+<br>
+<br>
+<br>
+<button class = "fbuttons" id = "top"><a href = "#">TOP</a></button>
+</p>
+<p>
+Address: 21 Dr. Shpetim Robaj, Prishtina 10000<br>
+email: propertech-ks@gmail.com
+</p>
+<p class = "copyright">Copyright &copy; 2022 proper tech. All rights Reserved</p>
+</div>
+
+</body>
+</html>
+
 </body>
 </html>

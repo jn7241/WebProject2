@@ -10,23 +10,23 @@
 </head>
 
 <body>
-<!--Header--->
+<!--Header-->
 <div class = "header">
 
-<!--navigation bar--->
+<!--navigation bar-->
 <div class = "nav" style = "font-size:20px;">
 
-<table cellspacing ="25px" >
+<table class = "navTable" >
 <tr>
 <td>
-<img src = "placeholder.png" width = "110" height = "100.5">
-</td>
-<td>
-<a href = "index.html">Home</a>
+<a href = "index.html" title = "Click to go Home!">
+<img class ="photoLogo" src = "placeholder.png" alt = "placeholder" width = "110" height = "100">
+</a>
 </td>
 <td>
 <a href = "about.html">About Us</a>
 </td>
+
 <td>
 <a href = "desktops.html">Desktops</a>
 </td>
@@ -34,23 +34,28 @@
 <a href = "laptops.html">Laptops</a>
 </td>
 <td>
-<a href = "more.html">Contact</a>
+<a href = "more.html">Shipping</a>
+</td>
+<td>
+<a href = "store.html">Store</a>
 </td>
 </tr>
 </table>
 </div>
+
 </div>
+
 <!--Phones-->
 <div class = "Phones">
 
-<table cellspacing = "50px">
+<table>
 <tr>
 
 <td>
-<img class = "images" src = "iphone12.jfif" width = "220" height = "200">
+<img class = "images" alt = "iphone 12" src = "iphone12.jfif" width = "220" height = "200">
 </td>
 <td>
-<img class = "images" src = "pixel3.jpg" width = "220" height = "200">
+<img class = "images" alt = "pixel 3" src = "pixel3.jpg" width = "220" height = "200">
 </td>
 
 </tr>
@@ -58,25 +63,19 @@
 
 <td class ="centered">
 64GB Purple iPhone 12:  &euro;380
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
 </td>
 <td class ="centered">
 64GB Clearly White Pixel 3: &euro;110
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
 </td>
 
 </tr>
 <tr>
 
 <td>
-<img class = "images" src = "s21.jpg" width = "220" height = "200">
+<img class = "images" alt = "galaxy s21" src = "s21.jpg" width = "220" height = "200">
 </td>
 <td>
-<img class = "images" src = "xiaomi.jpg" width = "220" height = "200">
+<img class = "images" alt = "xiaomi note 10" src = "xiaomi.jpg" width = "220" height = "200">
 </td>
 
 </tr>
@@ -84,20 +83,34 @@
 <tr>
 <td class ="centered">
 128GB Phantom Gray S21 5G:  &euro;300
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
 </td>
 <td class ="centered">
 128GB Xiaomi Redmi Note 10 Pro: &euro;220
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
+
 </td>
 
 </tr>
 </table>
 
 </div>
+
+<!--Footer-->
+<div class = "footer">
+<p>
+<button class = "fbuttons" onclick = "history.back()"><a>BACK</a></button>
+<br>
+<br>
+<br>
+<button class = "fbuttons" id = "top"><a href = "#">TOP</a></button>
+</p>
+<p>
+Address: 21 Dr. Shpetim Robaj, Prishtina 10000<br>
+email: propertech-ks@gmail.com
+</p>
+<p class = "copyright">Copyright &copy; 2022 proper tech. All rights Reserved</p>
+</div>
+
+</body>
+</html>
 </body>
 </html>

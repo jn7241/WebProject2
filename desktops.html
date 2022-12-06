@@ -10,19 +10,18 @@
 </head>
 
 <body>
-<!--Header--->
+<!--Header-->
 <div class = "header">
 
-<!--navigation bar--->
+<!--navigation bar-->
 <div class = "nav" style = "font-size:20px;">
 
-<table cellspacing ="25px" >
+<table class = "navTable" >
 <tr>
 <td>
-<img src = "placeholder.png" width = "110" height = "100.5">
-</td>
-<td>
-<a href = "index.html">Home</a>
+<a href = "index.html" title = "Click to go Home!">
+<img class ="photoLogo" src = "placeholder.png" alt = "placeholder" width = "110" height = "100">
+</a>
 </td>
 <td>
 <a href = "about.html">About Us</a>
@@ -30,27 +29,33 @@
 <td>
 <a href = "phones.html">Phones</a>
 </td>
+
 <td>
 <a href = "laptops.html">Laptops</a>
 </td>
 <td>
-<a href = "more.html">Contact</a>
+<a href = "more.html">Shipping</a>
+</td>
+<td>
+<a href = "store.html">Store</a>
 </td>
 </tr>
 </table>
 </div>
+
 </div>
-<!--Phones-->
+
+<!--Desktops-->
 <div class = "Desktops">
 
-<table cellspacing = "50px">
+<table>
 <tr>
 
 <td>
-<img class = "images" src = "macmini.webp" width = "220" height = "200">
+<img class = "images" alt = "mac mini" src = "macmini.webp" width = "220" height = "200">
 </td>
 <td>
-<img class = "images" src = "lenovo.jpg" width = "220" height = "200">
+<img class = "images" alt = "lenovo AIO" src = "lenovo.jpg" width = "220" height = "200">
 </td>
 
 </tr>
@@ -58,25 +63,20 @@
 
 <td class ="centered">
 2020 M1 Mac Mini (256GB):  &euro;580
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
+
 </td>
 <td class ="centered">
 Lenovo AIO 3i-2022, <br> 256GB + Mouse/Keyboard: &euro;500
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
 </td>
 
 </tr>
 <tr>
 
 <td>
-<img class = "images" src = "ASUSD500SC.jpg" width = "220" height = "200">
+<img class = "images" alt = "asus D500SC" src = "ASUSD500SC.jpg" width = "220" height = "200">
 </td>
 <td>
-<img class = "images" src = "optiplex.jpg" width = "220" height = "200">
+<img class = "images" alt = "dell optiplex" src = "optiplex.jpg" width = "220" height = "200">
 </td>
 
 </tr>
@@ -86,9 +86,7 @@ Lenovo AIO 3i-2022, <br> 256GB + Mouse/Keyboard: &euro;500
 ASUS ExpertCenter D500SC <br>
 256GB SSD + 1TB HDD <br>
 i5-11400, Windows 11 Home:  &euro;630
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
+
 </td>
 <td class ="centered">
 Dell Optiplex 3050SFF
@@ -97,14 +95,31 @@ i5-6500, 15GB DDR4, 256GB SSD;
 <br>
 Windows 10 Pro 64Bit
 : &euro;160
-<br>
-<br>
-<button class = "buttons">Add to Cart</button>
+
 </td>
 
 </tr>
 </table>
 
 </div>
+
+<!--Footer-->
+<div class = "footer">
+<p>
+<button class = "fbuttons" onclick = "history.back()"><a>BACK</a></button>
+<br>
+<br>
+<br>
+<button class = "fbuttons" id = "top"><a href = "#">TOP</a></button>
+</p>
+<p>
+Address: 21 Dr. Shpetim Robaj, Prishtina 10000<br>
+email: propertech-ks@gmail.com
+</p>
+<p class = "copyright">Copyright &copy; 2022 proper tech. All rights Reserved</p>
+</div>
+
+</body>
+</html>
 </body>
 </html>

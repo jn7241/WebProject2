@@ -12,6 +12,7 @@ const text2 = document.getElementById('textbox2');
 const text3 = document.getElementById('textbox3');
 const text4 = document.getElementById('textbox4');
 const text5 = document.getElementById('textbox5');
+
 function remember(){
 	output1.innerHTML = "Name: " +text1.value;
 	output2.innerHTML = "Surname: " +text2.value;

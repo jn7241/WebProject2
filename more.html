@@ -10,23 +10,22 @@
 </head>
 
 <body>
-<!--Header--->
+<!--Header-->
 <div class = "header">
 
-<!--navigation bar--->
+<!--navigation bar-->
 <div class = "nav" style = "font-size:20px;">
 
-<table cellspacing ="25px" >
-
+<table class = "navTable" >
 <tr>
 <td>
-<img src = "placeholder.png" width = "110" height = "100.5">
+<td>
+<a href = "index.html" title = "Click to go Home!">
+<img class ="photoLogo" src = "placeholder.png" alt = "placeholder" width = "110" height = "100">
+</a>
 </td>
 <td>
-<a href = "index.html">Home</a>
-</td>
-<td>
-<a href = "about.html">About</a>
+<a href = "about.html">About Us</a>
 </td>
 <td>
 <a href = "phones.html">Phones</a>
@@ -38,14 +37,23 @@
 <a href = "laptops.html">Laptops</a>
 </td>
 
+<td>
+<a href = "store.html">Store</a>
+</td>
+
 </tr>
 </table>
 </div>
+
 </div>
+
+
+<!--Contact for Shipping -->
 
 <div>
 <div>
-<h2 style = "text-decoration:none; margin-bottom:0; ">Contact Us:</h2>
+<h2 style = "text-decoration:none; margin-bottom:0; ">Contact for shipping:</h2>
+<br>
 </div>
 <table  class = "contact">
 <tr>
@@ -56,9 +64,6 @@
 <input id= "textbox1" type = "text"  maxlength = "30">
 </td>
 </tr>
-
-<br>
-
 <tr>
 <td>
 <label for ="textbox2">Surname:</label>
@@ -67,9 +72,6 @@
 <input id= "textbox2" type = "text" maxlength = "30">
 </td>
 </tr>
-
-<br>
-
 <tr>
 <td>
 <label for ="textbox3">Email:</label>
@@ -78,9 +80,6 @@
 <input id= "textbox3" type = "text"  maxlength = "30">
 </td>
 </tr>
-
-<br>
-
 <tr>
 <td>
 <label for ="textbox4">Street Address:</label>
@@ -90,7 +89,6 @@
 </td>
 </tr>
 
-<br>
 
 <tr>
 <td>
@@ -100,9 +98,9 @@
 <input id= "textbox5" type = "text" maxlength = "30">
 </td>
 </tr>
-<br>
 <tr>
 <td colspan = "2" style ="text-align:center;">
+<br>
 <button id = "btn1">submit</button>
 </td>
 
@@ -118,12 +116,29 @@
 <p class = "output" id = "output3">Email:</p>
 <p class = "output" id = "output4">Street Address:</p>
 <p class = "output" id = "output5">Phone number:</p>
+
+<p>(We will first reach out to you via email for account completion)</p>
 </div>
 <!--Taking Contact Information-->
-<script src = "script1.js">
+<script src = "script1.js"></script>
 
+<!--Footer-->
+<div class = "footer">
+<p>
+<button class = "fbuttons" onclick = "history.back()"><a>BACK</a></button>
+<br>
+<br>
+<br>
+<button class = "fbuttons" id = "top"><a href = "#">TOP</a></button>
+</p>
+<p>
+Address: 21 Dr. Shpetim Robaj, Prishtina 10000<br>
+email: propertech-ks@gmail.com
+</p>
+<p class = "copyright">Copyright &copy; 2022 proper tech. All rights Reserved</p>
+</div>
 
-</script>
-
+</body>
+</html>
 </body>
 </html>
